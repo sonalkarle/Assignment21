@@ -3,16 +3,23 @@ class employeeWage
 	public static void main(String[] args)
 	{
 		
-                int isPresent=1;
-                int res=(int)(Math.random()*10)%2;
-                if(res==isPresent)
+                 int isfulltime=1;
+                int isparttime=2;
+                int empRatePerHr=20;
+                int empHr=0;
+                int salary=0;
+                int res=(int)(Math.random()*10)%3;
+                if(res==isfulltime)
                 {
-                        System.out.println("Employee is present");
+                        System.out.println("Employee is fulltime");
+                        empHr=8;
                 }
-                else
+                else if(res==isparttime)
                 {
-                        System.out.println("Employee is absent");
+                        System.out.println("Employee is Parttime");
+                        empHr=4;
                 }
+		
 
 	}
 }
