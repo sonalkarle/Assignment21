@@ -1,4 +1,4 @@
-public class employeewage
+public class employeeWage
 {
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
@@ -10,6 +10,7 @@ public class employeewage
                 //variable
                 int empHr=0;
                 int salary=0;
+		int totalsalary=0;
                 //Computation
                 int empCheck=(int)Math.floor(Math.random()*10)%3;
 		
@@ -32,6 +33,7 @@ public class employeewage
 
                 }
                 salary=(empHr*EMP_RATE_PER_HR);
+		totalsalary+=salary;
 
 
                 System.out.println("Salary is "+salary);
