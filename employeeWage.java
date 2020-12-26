@@ -1,5 +1,6 @@
-class employeeWage
+public class employeeWage
 {
+<<<<<<< HEAD
 	public static void main(String[] args)
 	{
 		
@@ -74,13 +75,30 @@ public class employeewage
 =======
                 if(res==isfulltime)
                 {
+=======
+        public static final int FULL_TIME=1;
+        public static final int PART_TIME=2;
+        public static final int EMP_RATE_PER_HR=20;
+
+
+        public static void main(String[] args)
+        {
+                //variable
+                int empHr=0;
+                int salary=0;
+                //Computation
+                int empCheck=(int)Math.floor(Math.random()*10)%3;
+                switch (empCheck) {
+
+                        case FULL_TIME:
+>>>>>>> 4_usingSwitchCase_UC4
                         System.out.println("Employee is fulltime");
                         empHr=8;
-                }
-                else if(res==isparttime)
-                {
-                        System.out.println("Employee is Parttime");
+                        break;
+			 case PART_TIME:
+                        System.out.println("Employee is parttime");
                         empHr=4;
+<<<<<<< HEAD
                 }
 		
 >>>>>>> 3_AddPartTime_UC3
@@ -91,3 +109,16 @@ public class employeewage
 
 
 
+=======
+                        break;
+                        default:
+                        System.out.println("Employee is absent");
+                        empHr=0;
+
+                }
+                salary=(empHr*EMP_RATE_PER_HR);
+                System.out.println("Salary is "+salary);
+        }
+}
+
+>>>>>>> 4_usingSwitchCase_UC4
