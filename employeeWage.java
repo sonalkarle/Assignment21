@@ -1,6 +1,7 @@
 public class employeeWage
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
 <<<<<<< HEAD
 	public static void main(String[] args)
@@ -21,6 +22,8 @@ public class employeeWage
 public class employeewage
 =======
 >>>>>>> 5_WagesforMonth_UC5
+=======
+>>>>>>> 7_Refactorcode_UC7
 {
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
@@ -29,11 +32,13 @@ public class employeewage
         public static final int NUM_OF_WORKINGDAYS=2;
         public static final int MAX_HRS_IN_MONTH=10;
 
-        public static void main(String[] args)
+        public static int computrEmpWage()
         {
+		//variabls
                 int empHr=0;
                 int totalEmpHr=0;
                 int totalWorkingDays=0;
+		//computation
                 while (totalEmpHr<=MAX_HRS_IN_MONTH && totalWorkingDays<=NUM_OF_WORKINGDAYS)
 =======
                 int isPresent=1;
@@ -71,6 +76,7 @@ public class employeewage
                 }
                 int totalsalary = totalEmpHr * EMP_RATE_PER_HR;
                 System.out.println("Total salary: "+totalsalary);
+<<<<<<< HEAD
 =======
                 }
                 salary=(empRatePerHr*empHr);
@@ -177,6 +183,16 @@ public class employeewage
 
 
                 System.out.println("Salary is "+salary);
+=======
+		return totalsalary;
+
+        }
+	public static void main(String[] args)
+	{
+	computrEmpWage();
+
+	}
+>>>>>>> 7_Refactorcode_UC7
 }
 		 System.out.println("Totalsalary is "+totalsalary);
 
