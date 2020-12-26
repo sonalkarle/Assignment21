@@ -1,34 +1,27 @@
 public class employeeWage
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 {
-<<<<<<< HEAD
+
 	public static void main(String[] args)
 	{
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3_AddPartTime_UC3
+//3_AddPartTime_UC3
                  int isfulltime=1;
                 int isparttime=2;
                 int empRatePerHr=20;
                 int empHr=0;
                 int salary=0;
                 int res=(int)(Math.random()*10)%3;
-<<<<<<< HEAD
+
       
-public class employeewage
-=======
->>>>>>> 5_WagesforMonth_UC5
-=======
->>>>>>> 7_Refactorcode_UC7
+public class employeeWage
+//5_WagesforMonth_UC5
+//7_Refactorcode_UC7
 {
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
         public static final int EMP_RATE_PER_HR=20;
-<<<<<<< HEAD
+
         public static final int NUM_OF_WORKINGDAYS=2;
         public static final int MAX_HRS_IN_MONTH=10;
 
@@ -40,7 +33,7 @@ public class employeewage
                 int totalWorkingDays=0;
 		//computation
                 while (totalEmpHr<=MAX_HRS_IN_MONTH && totalWorkingDays<=NUM_OF_WORKINGDAYS)
-=======
+
                 int isPresent=1;
                 int empRatePerHr=20;
                 int salary=0;
@@ -52,7 +45,7 @@ public class employeewage
                         empHr=8;
                 }
                 else
->>>>>>> 2_DailyEmployewage_UC2
+//2_DailyEmployewage_UC2
                 {
                         totalWorkingDays++;
                         int empCheck=(int) Math.floor(Math.random()*10)%3;
@@ -69,31 +62,29 @@ public class employeewage
                         default:
                         System.out.println("Employee is absent");
                         empHr=0;
-<<<<<<< HEAD
+
                         }
                 totalEmpHr += empHr;
 
                 }
                 int totalsalary = totalEmpHr * EMP_RATE_PER_HR;
                 System.out.println("Total salary: "+totalsalary);
-<<<<<<< HEAD
-=======
+
                 }
                 salary=(empRatePerHr*empHr);
 		System.out.println("Salary is " +salary);		
+ //2_DailyEmployewage_UC2
 
->>>>>>> 2_DailyEmployewage_UC2
-=======
                 if(res==isfulltime)
                 {
-=======
+
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
         public static final int EMP_RATE_PER_HR=20;
 
-=======
+
 	public static final int NO_OF_WORKINGDAYS=2;
->>>>>>> 5_WagesforMonth_UC5
+//5_WagesforMonth_UC5
 
         public static void main(String[] args)
         {
@@ -110,18 +101,18 @@ public class employeewage
                 switch (empCheck) {
 
                         case FULL_TIME:
->>>>>>> 4_usingSwitchCase_UC4
+//4_usingSwitchCase_UC4
                         System.out.println("Employee is fulltime");
                         empHr=8;
                         break;
 			 case PART_TIME:
                         System.out.println("Employee is parttime");
                         empHr=4;
-<<<<<<< HEAD
+
                 }
 		
->>>>>>> 3_AddPartTime_UC3
-=======
+//3_AddPartTime_UC3
+
 {
 	//Calculating wages till condition of total working hours or days per month reached
 	public static final int FULL_TIME=1;
@@ -162,16 +153,16 @@ public class employeewage
 		//computation
 		int totalsalary = totalEmpHr * EMP_RATE_PER_HR;	
 		System.out.println("Total salary: "+totalsalary);
->>>>>>> 6_tillreachedtohour
+//6_tillreachedtohour
 
 				
 	}
 }
-<<<<<<< HEAD
 
 
 
-=======
+
+
                         break;
                         default:
                         System.out.println("Employee is absent");
@@ -183,7 +174,6 @@ public class employeewage
 
 
                 System.out.println("Salary is "+salary);
-=======
 		return totalsalary;
 
         }
@@ -192,17 +182,14 @@ public class employeewage
 	computrEmpWage();
 
 	}
->>>>>>> 7_Refactorcode_UC7
+//7_Refactorcode_UC7
 }
 		 System.out.println("Totalsalary is "+totalsalary);
 
         }
 }
 
-<<<<<<< HEAD
->>>>>>> 4_usingSwitchCase_UC4
-=======
+//4_usingSwitchCase_UC4
 
->>>>>>> 5_WagesforMonth_UC5
-=======
->>>>>>> 6_tillreachedtohour
+ //5_WagesforMonth_UC5
+//6_tillreachedtohour
