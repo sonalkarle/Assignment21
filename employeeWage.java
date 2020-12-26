@@ -3,6 +3,7 @@ class employeeWage
 	public static void main(String[] args)
 	{
 		
+<<<<<<< HEAD
                  int isfulltime=1;
                 int isparttime=2;
                 int empRatePerHr=20;
@@ -24,6 +25,19 @@ public class employeewage
                 int totalEmpHr=0;
                 int totalWorkingDays=0;
                 while (totalEmpHr<=MAX_HRS_IN_MONTH && totalWorkingDays<=NUM_OF_WORKINGDAYS)
+=======
+                int isPresent=1;
+                int empRatePerHr=20;
+                int salary=0;
+                int empHr=0;
+                int res=(int)(Math.random()*10)%2;
+                if(res==isPresent)
+                {
+                        System.out.println("Employee is present");
+                        empHr=8;
+                }
+                else
+>>>>>>> 2_DailyEmployewage_UC2
                 {
                         totalWorkingDays++;
                         int empCheck=(int) Math.floor(Math.random()*10)%3;
@@ -40,12 +54,19 @@ public class employeewage
                         default:
                         System.out.println("Employee is absent");
                         empHr=0;
+<<<<<<< HEAD
                         }
                 totalEmpHr += empHr;
 
                 }
                 int totalsalary = totalEmpHr * EMP_RATE_PER_HR;
                 System.out.println("Total salary: "+totalsalary);
+=======
+                }
+                salary=(empRatePerHr*empHr);
+		System.out.println("Salary is " +salary);		
+
+>>>>>>> 2_DailyEmployewage_UC2
 
 
         }
