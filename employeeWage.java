@@ -1,4 +1,5 @@
 public class employeeWage
+<<<<<<< HEAD
 {
 <<<<<<< HEAD
 	public static void main(String[] args)
@@ -17,10 +18,13 @@ public class employeeWage
 <<<<<<< HEAD
       
 public class employeewage
+=======
+>>>>>>> 5_WagesforMonth_UC5
 {
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
         public static final int EMP_RATE_PER_HR=20;
+<<<<<<< HEAD
         public static final int NUM_OF_WORKINGDAYS=2;
         public static final int MAX_HRS_IN_MONTH=10;
 
@@ -80,14 +84,22 @@ public class employeewage
         public static final int PART_TIME=2;
         public static final int EMP_RATE_PER_HR=20;
 
+=======
+	public static final int NO_OF_WORKINGDAYS=2;
+>>>>>>> 5_WagesforMonth_UC5
 
         public static void main(String[] args)
         {
                 //variable
                 int empHr=0;
                 int salary=0;
+		int totalsalary=0;
                 //Computation
                 int empCheck=(int)Math.floor(Math.random()*10)%3;
+		
+		for(int day=0; day< NO_OF_WORKINGDAYS; day++)
+                {
+
                 switch (empCheck) {
 
                         case FULL_TIME:
@@ -117,8 +129,18 @@ public class employeewage
 
                 }
                 salary=(empHr*EMP_RATE_PER_HR);
+		totalsalary+=salary;
+
+
                 System.out.println("Salary is "+salary);
+}
+		 System.out.println("Totalsalary is "+totalsalary);
+
         }
 }
 
+<<<<<<< HEAD
 >>>>>>> 4_usingSwitchCase_UC4
+=======
+
+>>>>>>> 5_WagesforMonth_UC5
