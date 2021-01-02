@@ -1,5 +1,6 @@
 class employeeWage
 {
+	//Check employee present or not and if present calculate its daily wage
 	public static void main(String[] args)
 	{
 		//variables
