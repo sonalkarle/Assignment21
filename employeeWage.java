@@ -1,5 +1,6 @@
 class employeeWage
 {
+	//Add part time employee and add its daily wage
 	public static void main(String[] args)
 	{
 		
