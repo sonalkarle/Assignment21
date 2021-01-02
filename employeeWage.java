@@ -1,6 +1,6 @@
 public class employeeWage
 {
-	//Calculating fulltime parttime employee monthly wages using switch case
+	//Calculating fulltime & parttime employee monthly wages using switch case
      	//constant
 	public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
