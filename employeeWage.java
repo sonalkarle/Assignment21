@@ -1,5 +1,6 @@
 class employeeWage
 {
+	//Check employee is present or not
 	public static void main(String[] args)
 	{
 		//constant
