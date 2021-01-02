@@ -1,5 +1,6 @@
 public class employeeWage
 {
+	//Calculate daily wage for fulltime and partime empoyee using switch case statement 
 	//constant
         public static final int FULL_TIME=1;
         public static final int PART_TIME=2;
